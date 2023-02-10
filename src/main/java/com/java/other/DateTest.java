@@ -23,5 +23,7 @@ public class DateTest {
         Date time = instance.getTime();
         String format1 = format.format(time);
         System.out.println(format1);
+
+
     }
 }
