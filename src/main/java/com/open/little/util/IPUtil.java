@@ -51,6 +51,8 @@ public class IPUtil {
 				}// end while
 			}// end while
 		} catch (SocketException e) {
+
+
 			log.info(e);
 		}
 		return localIP4Address;
